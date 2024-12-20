@@ -5,5 +5,7 @@ public class Principal1 {
         contaBancaria.setNumeroConta(12345);
         contaBancaria.setNomeTitular("João");
         contaBancaria.setSaldo(1000.0);
+
+        contaBancaria.exibeConta();
     }
 }

@@ -14,5 +14,11 @@ public class ContaBancaria {
         this.titular = titular;
     }
 
+    public void exibeConta(){
+        System.out.println("Número da conta: "+this.numeroConta);
+        System.out.println("Saldo da conta: "+this.saldo);
+        System.out.println("Titular da conta: "+this.titular);
+    }
+
     
 }
